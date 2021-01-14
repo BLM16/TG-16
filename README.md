@@ -12,9 +12,27 @@ TG-16 is a discord bot for fun and games.
 
 Developer: [Bradley Myers](https://github.com/BLM16)
 
-Date created: 2021-01-13 | Last updated: 2021-01-13
+Date created: 2021-01-13 | Last updated: 2021-01-14
 
 ---
+
+## Setup
+
+**Make sure you have Node.js and npm installed.**
+
+Create a new app [here](https://discord.com/developers/applications). Make sure you add a bot to your application.
+
+Copy the client id for your application and go [here](https://discordapi.com/permissions.html). Select the desired permissions (generally just administrator works), paste that client id and set the scope to bot. Copy the link it generates. That is your invite link for the bot. In [commands/invite.js](./commands/invite.js), replace the link on line 11 with that one one.
+
+Next, copy your bot's token and paste it into a file called TOKEN in [_core](./_core). The file should have no extention and no new line after the token.
+
+Paste the link from before into your browser to invite your bot to a server. Start the bot in a terminal from the root directory of this project with **one** of the following:
+
+```bat
+npm run-script run
+node index.js
+node .
+```
 
 ## License
 

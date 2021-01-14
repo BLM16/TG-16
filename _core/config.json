@@ -1,0 +1,8 @@
+{
+    "prefix": ".",
+    "presence": {
+        "status": "online",
+        "activityType": "PLAYING",
+        "activity": "all fun things"
+    }
+}
