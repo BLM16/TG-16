@@ -1,0 +1,34 @@
+{
+  "name": "tg-16",
+  "version": "1.0.0",
+  "description": "TG-16 is a discord bot for fun and games.",
+  "keywords": [
+    "discord",
+    "bot",
+    "games",
+    "fun"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js",
+    "update-patch": "npm version patch",
+    "update-minor": "npm version minor",
+    "update-major": "npm version major"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BLM16/TG-16.git"
+  },
+  "author": {
+    "name": "Bradley Myers",
+    "url": "https://github.com/BLM16"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BLM16/TG-16/issues"
+  },
+  "homepage": "https://github.com/BLM16/TG-16#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}

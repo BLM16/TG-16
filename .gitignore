@@ -1,2 +1,5 @@
 # Ignore node modules: users will install them through npm
 node_modules/
+
+# Ignore the bot's token for security
+_core/TOKEN
