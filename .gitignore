@@ -1,0 +1,2 @@
+# Ignore node modules: users will install them through npm
+node_modules/
