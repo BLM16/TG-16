@@ -6,7 +6,7 @@ module.exports = {
         const start = Date.now();
         msg.channel.send('pong!').then(msg => {
             const end = Date.now();
-            msg.edit(`pong! \`\`${end - start}ms\`\``);
+            msg.edit(`pong! \`${end - start}ms\``);
         });
     }
 }

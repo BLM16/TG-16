@@ -25,7 +25,7 @@ module.exports = {
                 helpMenu.setDescription(cmd.desc);
                 helpMenu.addFields(
                     { name: 'Syntax', value: cmd.syntax, inline: false },
-                    { name: 'Aliases', value: cmd.aliases ? cmd.aliases.map(a => `\`${a.toString()}\``).join(', ') : '\`\`None\`\`' }
+                    { name: 'Aliases', value: cmd.aliases ? cmd.aliases.map(a => `\`${a.toString()}\``).join(', ') : '\`None\`' }
                 );
             }
 
