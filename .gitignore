@@ -3,3 +3,6 @@ node_modules/
 
 # Ignore the bot's token for security
 _core/TOKEN
+
+# Ignore the data folder for bot specific data
+data/
