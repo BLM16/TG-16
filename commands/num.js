@@ -1,4 +1,4 @@
-const { readFile, writeFileSync, existsSync } = require('fs');
+const { readFile, writeFileSync, existsSync, mkdir } = require('fs');
 
 module.exports = {
     name: 'num',
@@ -6,6 +6,9 @@ module.exports = {
     syntax: 'num <number:1-1000>',
     execute(msg, args, client) {
         if(!args[0]) return msg.reply('you must specify a number!');
+
+        if(!existsSync('./data'))
+            mkdir('./data', (err) => { if (err) console.log(err); });
 
         if(!existsSync('./data/NUM')) {
             let rand = Math.floor(Math.random() * 1000) + 1;
