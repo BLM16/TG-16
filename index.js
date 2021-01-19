@@ -5,6 +5,7 @@ const { prefix, presence } = require("./_core/config.json");
 
 const client = new Client();
 client.commands = new Collection();
+client.data = {};
 
 // Get all the commands and bind them to the bot
 const cmdFiles = readdirSync('./commands/').filter(f => f.endsWith('.js'));
