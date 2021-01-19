@@ -12,7 +12,7 @@ TG-16 is a discord bot for fun and games.
 
 Developer: [Bradley Myers](https://github.com/BLM16)
 
-Date created: 2021-01-13 | Last updated: 2021-01-15
+Date created: 2021-01-13 | Last updated: 2021-01-19
 
 ---
 
